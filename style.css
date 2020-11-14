@@ -9,6 +9,9 @@
   /* Style the header */
   header {
     background-image: url(safecities2019header.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
     background-repeat: no-repeat;
     width: auto;
     background-attachment: initial;
@@ -85,13 +88,13 @@
   }
   nav ul li {
     text-align: center;
-    padding: 50px 0px;
+    padding: 10px 0px;
     border: 1px #ddd solid;
     margin-top: 10px;
-    width: 80%;
+    width: 70%;
     border-radius: 10px;
     transition: all .5s linear;
-    margin-left: 40px;
+    margin-left: 60px;
     font-size: 40px;
   }
 
@@ -120,22 +123,22 @@
 
   #uz {
     background-image: url(uzbekistan-flag-icon-128\ \(1\).png);
-    background-size: 400px 150px;
+    background-size: 400px 70px;
   }
 
   #usa {
     background-image: url(united-states-of-america-flag-icon-128.png);
-    background-size: 400px 150px;
+    background-size: 400px 70px;
   }
   #japan {
     background-image: url(japan-flag-icon-128.png);
-    background-size: 330px 150px;
+    background-size: 270px 70px;
   }
   #france {
     background-image: url(france-flag-icon-128.png);
-    background-size: 330px 150px;
+    background-size: 330px 70px;
   }
   #russia {
     background-image: url(russia-flag-icon-128.png);
-    background-size: 400px 150px;
+    background-size: 400px 70px;
   }
