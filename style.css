@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-image: url(safecities2019header.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-attachment: initial;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    height: 230px;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    float: left;
+    width: 30%;
+    height: 1200px; /* only for demonstration, should be removed */
+    background: url(08083924e279392fb5c600a3d1117186.jpg);  
+    padding: 0px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: auto; /* only for demonstration, should be removed */
+  }
+  
+  /* Clear floats after the columns */
+  section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  @media (max-width: 600px) {
+    *{
+      width: 100%;
+      height: auto;
+    }
+  }
+    
+  
+   ul {
+    margin-top: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  #uzbekh1 {
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+  }
+  #uzbekh1:hover{
+    color: rgb(9, 255, 0);
+  }
+  nav ul li {
+    text-align: center;
+    padding: 50px 0px;
+    border: 1px #ddd solid;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 10px;
+    transition: all .5s linear;
+    margin-left: 40px;
+    font-size: 40px;
+  }
+
+  nav ul li:hover{
+    box-shadow: inset 0 0 14px 0;
+  }
+  
+  /* nav ul li:hover {
+    background-color: rgb(109, 109, 252);
+    color: #fff; 
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: inset 0 0 20px 0px rgb(128, 106, 106);
+    border-style: hidden;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: rgb(109, 109, 252);
+    font-size: 20px;
+    color: #fff;
+
+  } */
+  .youtube {
+    border-radius: 8%;
+  }
+
+  #uz {
+    background-image: url(uzbekistan-flag-icon-128\ \(1\).png);
+    background-size: 400px 150px;
+  }
+
+  #usa {
+    background-image: url(united-states-of-america-flag-icon-128.png);
+    background-size: 400px 150px;
+  }
+  #japan {
+    background-image: url(japan-flag-icon-128.png);
+    background-size: 330px 150px;
+  }
+  #france {
+    background-image: url(france-flag-icon-128.png);
+    background-size: 330px 150px;
+  }
+  #russia {
+    background-image: url(russia-flag-icon-128.png);
+    background-size: 400px 150px;
+  }
